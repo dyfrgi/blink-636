@@ -9,3 +9,8 @@ or
 `i<esc>Vyi`
 
 You should see "Waiting for OSC 52 response from the terminal. Press Ctrl-C to interrupt..."
+
+For the same bug without blink:
+`nvim --clean -u without-blink.lua file.txt`
+
+and the same behavior occurs.
